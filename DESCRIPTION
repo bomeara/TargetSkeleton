@@ -1,0 +1,10 @@
+Package: TargetSkeleton
+Title: Creates A Template Targets Workflow
+Version: 2026.02.15.01
+Authors@R: 
+    person("Brian", "O'Meara", , "omeara.brian@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-0337-5997"))
+Description: This creates a directory containing a sample targets workflow. The intent is to make it one click to start using the targets package for managing small projects.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
