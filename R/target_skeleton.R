@@ -46,7 +46,7 @@ source("R/functions.R")
 	tar_target(loaded_file, read_file(input_file)),
 	tar_target(means, c(0, 1, 10)),
 	tar_target(sds, c(0.2, 0.5)),
-	tar_target(reps, 100)),
+	tar_target(reps, 100),
 	tar_target(
 		name = sim_result,
 		command = doRun(
