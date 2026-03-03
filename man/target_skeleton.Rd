@@ -4,13 +4,13 @@
 \alias{target_skeleton}
 \title{Create target skeleton directory}
 \usage{
-target_skeleton(scratch_path = "", include_examples = TRUE)
+target_skeleton(include_examples = TRUE, store_path = NULL)
 }
 \arguments{
-\item{scratch_path}{If set, tells targets to use the specified directory for its _targets objects}
-
 \item{include_examples}{If TRUE, includes some example commands in files}
+
+\item{store_path}{If set, tells targets to use the specified directory for its _targets objects}
 }
 \description{
-This creates necessary target files and templates in the current directory. You can optionally set a different directory (such as a dropbox folder) to hold the _targets directory.
+This creates necessary target files and templates in the current directory. You can optionally set a different directory (such as a Dropbox folder) to hold the _targets directory.
 }
