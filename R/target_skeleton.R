@@ -124,8 +124,6 @@ results_save <- function(sim_result) {
 			'---
 title: "Splendid report"
 author: "Mary Anning"
-date: last-modified
-date-format: "DD-MMM-YYYY"
 format:
   pdf:
     fig-width: 8
